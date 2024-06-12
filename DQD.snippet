@@ -1,5 +1,5 @@
 #[rewrite_local]
-^http://zc\.dongqiudi\.com/order/repurchaseWindowDetail\?plan_id=.*$ url script-response-body https://raw.githubusercontent.com/Bennie-CHEN/DQD/main/DQD.js
+^https:\/\/zc\.dongqiudi\.com\/order\/repurchaseWindowDetail\?plan_id=.*$ url script-response-body https://raw.githubusercontent.com/Bennie-CHEN/DQD/main/DQD.js
 
 #[mitm]
 hostname = zc.dongqiudi.com
